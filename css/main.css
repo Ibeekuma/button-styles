@@ -10,4 +10,66 @@ html {
 div {
   padding: .5rem;
   text-align: center;
+  margin: 1em;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border: 3px;
+  border-radius: 8px;
+  padding-top: .4em;
+  padding-bottom: .3em;
+  padding-left: .75em;
+  padding-right: .75em;
+  font-size: 1.125em;
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-subtle {
+  display: inline-block;
+  text-decoration: none;
+  border: 3px;
+  border-radius: 8px;
+  padding-top: .4em;
+  padding-bottom: .3em;
+  padding-left: .75em;
+  padding-right: .75em;
+  font-size: 1.125em;
+  color: #fff;
+  background-color: #ccc;
+  border-color: #000;
+}
+
+.btn-ghost {
+  display: inline-block;
+  text-decoration: none;
+  border: 3px solid;
+  border-radius: 8px;
+  padding-top: .4em;
+  padding-bottom: .3em;
+  padding-left: .75em;
+  padding-right: .75em;
+  font-size: 1.125em;
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+
+}
+
+.btn-warning {
+  display: inline-block;
+  text-decoration: none;
+  border: 3px;
+  border-radius: 8px;
+  padding-top: .4em;
+  padding-bottom: .3em;
+  padding-left: .75em;
+  padding-right: .75em;
+  font-size: 1.125em;
+  color: #fff;
+  background-color: #f33;
+  border-color: #000;
 }
