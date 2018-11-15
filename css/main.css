@@ -8,81 +8,47 @@ html {
 }
 
 div {
-  padding: .5rem;
+  padding: .25em;
   text-align: center;
-  margin: 1em;
 }
 
 .btn {
   display: inline-block;
   text-decoration: none;
-  border: 3px;
+  border: 3px solid;
+  padding: .4em .75em .3em;
   border-radius: 8px;
-  padding-top: .4em;
-  padding-bottom: .3em;
-  padding-left: .75em;
-  padding-right: .75em;
-  font-size: 1.125em;
+  font-size: 1.125rem;
   color: #fff;
   background-color: #000;
-  border-color: #000;
 }
 
 .btn-subtle {
-  padding-top: .4em;
-  padding-bottom: .3em;
-  padding-left: .75em;
-  padding-right: .75em;
   color: #fff;
   background-color: #ccc;
-  border-color: #000;
 }
 
 .btn-ghost {
-  padding-top: .4em;
-  padding-bottom: .3em;
-  padding-left: .75em;
-  padding-right: .75em;
-  color: #000;
   background-color: #fff;
   border-color: #000;
+  color: #000;
 }
 
 .btn-warning {
-  padding-top: .4em;
-  padding-bottom: .3em;
-  padding-left: .75em;
-  padding-right: .75em;
   color: #fff;
   background-color: #f33;
-  border-color: #000;
 }
 
 .btn-small {
-  padding-top: .4em;
-  padding-bottom: .3em;
-  padding-left: .75em;
-  padding-right: .75em;
-  font-size: 1.125em;
+  font-size: .875rem;
 }
 
 .btn-big {
-  padding-top: .4em;
-  padding-bottom: .3em;
-  padding-left: .75em;
-  padding-right: .75em;
-  font-size: 1.125em;
-}
-
-.btn-suble {
-  padding-top: .4em;
-  padding-bottom: .3em;
-  padding-left: .75em;
-  padding-right: .75em;
+  font-size: 1.5rem;
 }
 
 .btn:hover {
-  display: inline-block;
+  background-color: #333;
 }
 
 .btn-normal:hover {
